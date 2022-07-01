@@ -12,9 +12,9 @@ import java.util.stream.Collectors;
 import java.util.function.Supplier;
 
 public class VersionNumber  implements Comparable<VersionNumber>{
-	Integer xx;
-	Integer yy;
-	Integer zz;
+	private Integer xx;
+	private Integer yy;
+	private Integer zz;
 
 	public Integer getXx() {
 		return xx;
